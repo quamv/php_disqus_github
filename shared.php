@@ -59,22 +59,6 @@ class shared {
         );
     }
 
-    /*
-    get_required_names
-    takes:
-        $endpoint_params: an array of endpoint parameter definitions
-    returns:
-        an array of strings (the 'names' of all the records in $endpoint_params 
-        where the 'required' property is true)
-    */
-    public function get_required_names($endpoint_params){
-        $required_params = 
-            array_filter(
-                $endpoint_params,
-                function($val){ return $val['required'];});
-
-        return shared::get_names($required_params);
-    }
 }
 
 ?>
