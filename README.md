@@ -12,9 +12,9 @@ currently only handles simple api parameter types and a very small set of endpoi
 
 
 to build, add a private.php file to the root folder and add your disqus keys
-define('API_SECRET', '<your secret here>');
-define('API_KEY', '<your key here>');
-define('ACCESS_TOKEN', '<a testing token here>')
+define('API_SECRET', 'your secret here');
+define('API_KEY', 'your key here');
+define('ACCESS_TOKEN', 'a testing token here')
 
 
 
